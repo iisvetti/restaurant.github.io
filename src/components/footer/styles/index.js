@@ -5,11 +5,12 @@ import {
   AiFillInstagram,
   AiFillYoutube,
 } from 'react-icons/ai';
+import { CiTextAlignCenter } from 'react-icons/ci';
 
 export const Styledfooter = styled('footer')({
   width: '100%',
   minHeight: '20vh',
-  background: '#2c2c2c',
+  background: '#463f3a',
 });
 
 export const LogoImg = styled('img')({
@@ -18,25 +19,36 @@ export const LogoImg = styled('img')({
     margin: '2em',
   },
   '@media (min-width: 640px)': {
-    width: '18em',
+    width: '17em',
     margin: '2em',
   },
 });
 
 export const FooterSocials = styled('div')({
   width: '100%',
-  fontSize: '2.5em',
+  fontSize: '2.3em',
   minHeight: '10vh',
   display: 'flex',
-  alignItems: 'center',
-  justifyContent: 'center',
-  gap: '.7em',
+  alignItems: 'flex-start',
+  justifyContent: 'flex-start',
+  gap: '.5em',
+  paddingLeft: '1em',
+  position: 'relative', 
+  top: '60px',
+
+  '@media (max-width: 640px)': { // Для малих екранів
+   
+
+   marginLeft: '55px',
+
+    marginBottom: '60px',
+  },
 });
 
 const StylesSocials = {
   color: 'white',
   '&:hover': {
-    color: 'var(--mainColor)',
+    color: '#d8d6d0',
     cursor: 'pointer',
     transition: '.3s',
   },
@@ -73,8 +85,8 @@ export const StyledSpan = styled('span')({
     paddingLeft: '25px',
     paddingRight: '25px',
     ':nth-of-type(2)': {
-      borderRight: '2px solid var(--mainColor)',
-      borderLeft: '2px solid var(--mainColor)',
+      borderRight: '2px solid #f4f3ee',
+      borderLeft: '2px solid  #f4f3ee',
     },
   },
 });

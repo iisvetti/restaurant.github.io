@@ -21,17 +21,18 @@ export const RestaurantWrapper = styled('div')({
 });
 
 export const H1About = styled('h1')({
-  fontWeight: '900',
-  fontSize: '32px',
-  letterSpacing: '3px',
-  color: '#e96a43',
+  fontWeight: '700',
+  fontSize: '55px',
+  letterSpacing: '2px',
+  color: '#463f3a',
   '@media (min-width: 320px)': {
     display: 'block',
-    fontSize: '24px',
+    fontSize: '35px',
     width: '90%',
   },
   '@media (min-width: 724px)': {
     display: 'flex',
+    fontSize: '40px',
   },
 });
 
@@ -49,9 +50,9 @@ export const Description = styled('p')({
 });
 
 export const LineDescription = styled('div')({
-  borderBottom: '6px solid #e96a43',
+  borderBottom: '6px solid #463f3a',
   marginTop: '30px',
-  width: '40%',
+  width: '62%',
 });
 
 export const AboutInfo = styled('div')({
@@ -70,10 +71,10 @@ export const ReviewWrapper = styled('div')({
 });
 
 export const StyledImgAbout = styled('img')({
-  width: '70%',
+  width: '60%',
   position: 'relative',
   left: '16em',
-  borderRadius: '85px',
+  borderRadius: '70px',
   ':nth-of-type(1)': {
     width: '42%',
     left: '28em',
@@ -96,7 +97,7 @@ export const ImgRestaurant = styled('img')({
   height: '225px',
   objectFit: 'cover',
   filter: 'brightness(75%)',
-  borderRadius: '25px',
+  borderRadius: '15px',
   '@media (min-width: 320px)': {
     width: '90%',
   },
@@ -110,12 +111,12 @@ export const ButtonAbout = styled('button')({
   fontWeight: '800',
   border: 'none',
   borderRadius: '10px',
-  background: '#ed4f24',
+  background: '#68605b',
   position: 'relative',
   top: '10px',
   color: 'white',
   '&:hover': {
-    background: '#e96a43',
+    background: '#8a817c',
     transition: '.4s',
     cursor: 'pointer',
   },

@@ -2,26 +2,26 @@ const DataFeatures = [
   {
     id: 1,
     image: './images/features1.png',
-    title: 'Найкраща якість',
-    paragraph: 'У нас найкраща якість має чудовий смак!',
+    title: 'Best quality',
+    paragraph: 'We have the best quality and great taste!',
   },
   {
     id: 2,
     image: './images/features2.png',
-    title: 'Завжди вчасно',
-    paragraph: 'Наші страви завжди гарно подаються!',
+    title: 'Always on time',
+    paragraph: 'Our dishes are always beautifully presented.!',
   },
   {
     id: 3,
     image: './images/features3.png',
-    title: 'Шеф-кухарі',
-    paragraph: 'Наші кухарі - справжні художники смаку!',
+    title: 'Our chiefs',
+    paragraph: 'Our chefs are true artists of taste!',
   },
   {
     id: 4,
     image: './images/features4.png',
-    title: 'Чудова їжа',
-    paragraph: 'Їсти з нами - одне задоволення!',
+    title: 'Tasty meals',
+    paragraph: 'Our dishes is pleasure!',
   },
 ];
 

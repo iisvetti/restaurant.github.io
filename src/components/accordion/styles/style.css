@@ -1,7 +1,5 @@
 /*
-===============
 Variables
-===============
 */
 
 :root {
@@ -16,9 +14,7 @@ Variables
 }
 
 /*
-===============
 Global Styles
-===============
 */
 
 ul {
@@ -198,7 +194,7 @@ Questions
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  color: orange;
+  color: #68605b;
   cursor: pointer;
   margin-left: 1rem;
   align-self: center;

@@ -16,10 +16,10 @@ const Team = () => {
       <TeamContainer>
         <TeamWrapper>
           <HeadingTeam>
-            <StyledH1>Наша команда</StyledH1>
+            <StyledH1>Our team</StyledH1>
             <StyledP>
-              Це наша команда, люди, які готові надати нашим гостям винятковий
-              кулінарний досвід.
+            This is our team, people who are
+             ready to provide our guests with an exceptional culinary experience.
             </StyledP>
           </HeadingTeam>
           <OurTeamWrapper>

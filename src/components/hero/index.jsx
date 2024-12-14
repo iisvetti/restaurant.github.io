@@ -14,10 +14,10 @@ const Hero = () => {
       <div className="styledBg"></div>
       <HeroWrapper>
         <H1Hero>
-          Вітаємо в <SpanHero>Апетітто</SpanHero>!
+          Welcome to the <SpanHero>TeaHouse</SpanHero>
         </H1Hero>
 
-        <H3SubTitle>Найпопулярніший ресторан</H3SubTitle>
+        <H3SubTitle>teashop</H3SubTitle>
       </HeroWrapper>
     </SectionHero>
   );

@@ -28,7 +28,7 @@ export const HeadingTeam = styled('div')({
 export const StyledH1 = styled('h1')({
   fontSize: '4em',
   marginTop: '1.5em',
-  color: '#e96a43',
+  color: '#8a817c',
   '@media (min-width: 320px)': {
     fontSize: '2em',
   },
@@ -70,7 +70,7 @@ export const StyledP = styled('p')({
 
 export const TeamContent = styled('div')({
   borderRadius: '20px',
-  backgroundColor: '#dfe6e9',
+  backgroundColor: '#8a817c',
   textAlign: 'center',
   padding: '142px 30px 19px 30px',
   boxShadow: '0px 6px 15px rgba(1, 15, 28, 0.06)',
@@ -90,7 +90,7 @@ export const TeamContent = styled('div')({
   },
   '&:hover:before, &:hover:after': {
     height: '100%',
-    backgroundColor: '#f55f31',
+    backgroundColor: '#8a817c',
   },
 
   '&:after': {
@@ -124,7 +124,7 @@ export const SingleCardsTeam = styled('div')({
     content: "''",
     width: '85%',
     height: '250px',
-    border: '2px solid #e96a43',
+    border: '2px solid #68605b',
     position: 'absolute',
     top: '0',
     left: '22px',

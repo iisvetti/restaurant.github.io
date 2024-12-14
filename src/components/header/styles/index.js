@@ -13,7 +13,7 @@ export const StyledHeader = styled('header')(({ fixed }) => ({
   zIndex: '99999',
   transition: '.6s',
   '&.fixed': {
-    background: '#202020',
+    background: '#463f3a',
     height: '80px',
   },
   '@media (max-width: 768px)': {
@@ -92,14 +92,14 @@ export const StyledNavLi = styled('li')({
 
 export const StyledLink = styled(Link)({
   display: 'flex',
-  fontWeight: '700',
+  fontWeight: '600',
   textDecoration: 'none',
-  color: 'white',
+  color: '#f4f3ee',
   justifyContent: 'center',
   width: '100%',
   height: '100%',
   ':hover': {
-    color: '#e96a43',
+    color: '#fff',
     transition: '0.4s',
     fontWeight: '700',
   },
@@ -107,7 +107,7 @@ export const StyledLink = styled(Link)({
 
 export const StyledLogo = styled('div')({
   display: 'flex',
-  width: '30%',
+  width: '15%',
   '@media (min-width: 320px)': {
     width: '0%',
   },
@@ -115,10 +115,10 @@ export const StyledLogo = styled('div')({
 
 export const StyledLogoImg = styled('img')({
   '@media (min-width: 320px)': {
-    width: '135px',
+    width: '120px',
   },
   '@media (min-width: 640px)': {
-    width: '175px',
+    width: '160px',
   },
 });
 

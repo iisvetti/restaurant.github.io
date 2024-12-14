@@ -11,7 +11,7 @@ const Reviews = () => {
   return (
     <ReviewsWrapper>
       <TitleReviews>
-        <H1Reviews>Відгуки клієнтів:</H1Reviews>
+        <H1Reviews>Customer feedback:</H1Reviews>
       </TitleReviews>
       <UnderlineH1></UnderlineH1>
       <Review />

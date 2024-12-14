@@ -17,10 +17,9 @@ function About() {
       <AboutHero className="hero">
         <ContainerHero>
           <WrapperHero>
-            <StyledH1>Про нас</StyledH1>
+            <StyledH1>About us</StyledH1>
             <StyledP>
-              Наша талановита команда з пристрастю до приготування їжі та
-              обслуговування гостей
+            Our talented team with a passion for cooking and serving guests
             </StyledP>
           </WrapperHero>
         </ContainerHero>

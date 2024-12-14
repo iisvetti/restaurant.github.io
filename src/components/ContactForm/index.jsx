@@ -11,11 +11,10 @@ import {
 import { MenuItem, Button } from '@mui/material';
 
 const options = [
-  { value: 'option1', label: 'День народження' },
-  { value: 'option2', label: 'Весілля' },
-  { value: 'option3', label: 'Захід' },
-  { value: 'option4', label: 'Зустріч' },
-  { value: 'option5', label: 'Немає' },
+  { value: 'option1', label: 'Birthday' },
+  { value: 'option2', label: 'Wedding' },
+  { value: 'option3', label: 'Not officcial meeting' },
+  { value: 'option4', label: 'Meeting' },
 ];
 
 const Form = () => {
@@ -32,7 +31,7 @@ const Form = () => {
   };
 
   if (formSubmitted) {
-    return <MessageContainer>Дякуємо за повідомлення!</MessageContainer>;
+    return <MessageContainer>Thank you for message us!</MessageContainer>;
   }
 
   return (
@@ -55,7 +54,7 @@ const Form = () => {
           displayEmpty
         >
           <MenuItem value="" disabled>
-            Виберіть подію
+            Choose event
           </MenuItem>
           {options.map(option => (
             <MenuItem key={option.value} value={option.value}>
@@ -64,9 +63,9 @@ const Form = () => {
           ))}
         </SelectField>
       </InputContainer>
-      <MessageField placeholder="Введіть своє повідомлення" />
+      <MessageField placeholder="Enter your message" />
       <Button type="submit" variant="contained">
-        Надіслати
+        Send
       </Button>
     </FormContainer>
   );

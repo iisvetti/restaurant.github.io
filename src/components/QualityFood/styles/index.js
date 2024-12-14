@@ -4,8 +4,8 @@ export const QualitySection = styled('section')({
   width: '100%',
   minHeight: '60vh',
   backgroundImage:
-    'url(https://angfuzsoft.com/wordpress/pizzer/wp-content/uploads/2022/12/feature_bg_2.png%22)',
-  backgroundColor: '#010F1C',
+    'url(/)',
+  backgroundColor: '#68605b',
   display: 'flex',
   justifyContent: 'center',
   alignItems: 'center',
@@ -23,7 +23,7 @@ export const StyledHeading = styled('div')({
   width: '100%',
   display: 'block',
   justifyContent: 'center',
-  color: 'white',
+  color: '#f4f3ee',
   padding: '25px',
 });
 
@@ -42,7 +42,7 @@ export const Cards = styled('div')({
 
 export const SingleCard = styled('div')({
   width: '25%',
-  color: 'white',
+  color: '#f4f3ee',
   padding: '0 2em',
   transition: '.5s',
 
@@ -68,7 +68,7 @@ export const SingleCard = styled('div')({
 });
 
 export const StyledP = styled('p')({
-  color: 'white',
+  color: '#f4f3ee',
 });
 
 export const StyledH4 = styled('h4')({

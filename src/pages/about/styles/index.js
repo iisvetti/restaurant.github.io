@@ -1,8 +1,9 @@
 import { styled } from '@mui/material';
 
 export const AboutHero = styled('section')({
-  height: '45vh',
+  height: '100vh',
   backgroundImage: 'url(./images/bgAbout.jpg)',
+  filter: 'brightness(80%)',
   backgroundPosition: 'center center',
   backgroundRepeat: 'no-repeat',
   backgroundSize: 'cover',
@@ -22,7 +23,7 @@ export const ContainerHero = styled('div')({
 export const WrapperHero = styled('div')({
   color: 'white',
   '@media (min-width: 320px)': {
-    textAlign: 'left',
+    textAlign: 'center',
     width: '80%',
   },
   '@media (min-width: 724px)': {
@@ -31,9 +32,12 @@ export const WrapperHero = styled('div')({
 });
 
 export const StyledH1 = styled('h1')({
-  color: '#e96a43',
-  textAlign: 'left',
-  fontWeight: '900',
+  width: '100%',
+  filter: 'brightness(100%)',
+  color: '#f4f3ee',
+  textShadow: '#000 1px 0 3px',
+  textAlign: 'center',
+  fontWeight: '600',
   '@media (min-width: 320px)': {
     fontSize: '1.9em',
   },
@@ -43,6 +47,11 @@ export const StyledH1 = styled('h1')({
 });
 
 export const StyledP = styled('p')({
+  textAlign: 'center',
+  marginLeft: '250px' /*change*/,
+  color: '#bcb8b1',
+  textShadow: '#000 1px 0 3px',
+  fontWeight: '600',
   '@media (min-width: 320px)': {
     fontSize: '.8em',
   },

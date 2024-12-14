@@ -18,16 +18,16 @@ export const TitleDishes = styled('h2')({
 });
 
 export const UnderLine = styled('div')({
-  border: '3px solid #e96a43',
+  border: '2px solid #d8d6d0',
   borderRadius: '15px',
   marginLeft: 'auto',
   marginRight: 'auto',
   justifyContent: 'center',
-  width: '10%',
+  width: '15%',
 });
 
 export const MainColor = styled('span')({
-  color: '#e96a43',
+  color: '#a39d97',
 });
 
 export const SpanSLideTitle = styled('div')({

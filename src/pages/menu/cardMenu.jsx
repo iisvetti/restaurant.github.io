@@ -11,18 +11,15 @@ const CardMenu = ({
 
   const handleButtonClick = (id, title, price) => {
     if (showModal && orderItems.length === 0) {
-      // Do not update the selected items when the order is already rejected
       return;
     }
 
     if (selectedItems.includes(id)) {
-      // Видалити елемент зі списку, якщо вже вибрано
       setSelectedItems(prevSelectedItems =>
         prevSelectedItems.filter(itemId => itemId !== id)
       );
       handleAddToOrder(title, price, false);
     } else {
-      // Додати елемент до списку, якщо ще не вибрано
       setSelectedItems(prevSelectedItems => [...prevSelectedItems, id]);
       handleAddToOrder(title, price, true);
     }
@@ -45,7 +42,7 @@ const CardMenu = ({
             <div className="item-info">
               <header>
                 <h4>{title}</h4>
-                <h4 className="price">{price}грн</h4>
+                <h4 className="price">{price}hrn</h4>
               </header>
               <p className="item-text">{desc}</p>
               <button
@@ -53,7 +50,7 @@ const CardMenu = ({
                 className={`order-btn ${isSelected ? 'selected' : ''}`}
                 onClick={() => handleButtonClick(id, title, price)}
               >
-                {isSelected ? 'Додано' : 'Замовити'}
+                {isSelected ? 'Added' : 'To order'}
               </button>
             </div>
           </article>

@@ -1,7 +1,3 @@
-:root {
-  --mainColor: #e96a43;
-}
-
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
@@ -29,6 +25,4 @@ body {
   color: white;
 }
 
-a {
-  color: #e96a43;
-}
+

@@ -20,19 +20,20 @@ const AboutUs = () => {
     <AboutSection>
       <RestaurantWrapper>
         <AboutInfo>
-          <H1About>Про ресторан</H1About>
+          <H1About>About restaurant</H1About>
           <Description>
-            Ми ресторан, який працює вже п'ять років, тобто з самого початку
-            фокусується на якості та задоволенні клієнтів. Наша кухня заснована
-            на свіжих інгредієнтах і запатентованих рецептах, щo гарантує
-            неповторний смак кожної страви. Набутий досвід за роки роботи
-            дозволяє нам постійно вдосконалювати якість нашої продукції послуги
-            та впровадження нових, цікавих смаків. Ми запрошуємо вас відвідати
-            наш ресторан і насолодитись нашими стравами, які точно залишаться у
-            вашій пам'яті надовго.
+          We are a restaurant that has been operating for ten years,<br/> 
+          which means that we have been focusing on quality and<br/>
+           customer satisfaction from the very beginning. Our cuisine is<br/>
+            based on fresh ingredients and patented recipes, which guarantees<br/>
+             the unique taste
+            of each dish. The experience gained over the years<br/> allows us to 
+            constantly improve the quality of our products and<br/>  services and 
+            introduce new, interesting flavours. We invite you to visit our restaurant 
+          and enjoy our dishes that will definitely remain in your memory for a long time.
           </Description>
           <Link to="/onas">
-            <ButtonAbout>Побачити більше!</ButtonAbout>
+            <ButtonAbout>See more</ButtonAbout>
           </Link>
           <LineDescription>
             <ImgRestaurant src={restaurant} />

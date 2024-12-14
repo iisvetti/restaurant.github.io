@@ -48,16 +48,16 @@ const Header = () => {
         </StyledBurger>
         <StyledNavUl>
           <StyledNavLi>
-            <StyledLink to="/">Головна</StyledLink>
+            <StyledLink to="/">Main</StyledLink>
           </StyledNavLi>
           <StyledNavLi>
-            <StyledLink to="/Menu">Меню</StyledLink>
+            <StyledLink to="/Menu">Menu</StyledLink>
           </StyledNavLi>
           <StyledNavLi>
-            <StyledLink to="Onas">Про нас</StyledLink>
+            <StyledLink to="Onas">About us</StyledLink>
           </StyledNavLi>
           <StyledNavLi>
-            <StyledLink to="/kontakt">Контакти</StyledLink>
+            <StyledLink to="/kontakt">Contacts</StyledLink>
           </StyledNavLi>
         </StyledNavUl>
       </StyledNav>

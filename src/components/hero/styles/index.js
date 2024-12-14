@@ -18,49 +18,49 @@ export const SectionHero = styled('section')({
   justifyContent: 'center',
   marginBottom: '30vh',
   '@media (min-width: 640px)': {
-    minHeight: '70vh',
+    minHeight: '100vh',
   },
   '@media (min-width: 1024px)': {
-    minHeight: '60vh',
+    minHeight: '100vh',
   },
   '@media (max-width: 500px)': {
-    minHeight: '20vh',
+    minHeight: '100vh',
   },
 });
 
 export const HeroWrapper = styled('div')({});
 
 export const H1Hero = styled('h1')({
-  color: 'white',
-  fontSize: '3.4em',
-  textShadow: '#fff 1px 0 3px',
-  fontWeight: '800',
-  letterSpacing: '3px',
+  color: '#f4f3ee',
+  fontSize: '5.5em',
+  textShadow: '#000 1px 0 3px',
+  fontWeight: '600',
+  letterSpacing: '2px',
   '@media (min-width: 320px)': {
-    marginTop: '200px',
-    fontSize: '31px',
+    marginTop: '100px',
+    fontSize: '38px',
   },
   '@media (min-width: 640px)': {
-    fontSize: '35px',
+    fontSize: '50px',
   },
   '@media (min-width: 1280px)': {
-    fontSize: '4em',
+    fontSize: '4.8em',
   },
 });
 
 export const SpanHero = styled('span')({
-  color: '#e96a43',
-  fontWeight: '800',
-  letterSpacing: '3px',
-  textShadow: '#e96a43 1px 0 3px',
+  color: '#bcb8b1',
+  fontWeight: '500',
+  letterSpacing: '2px',
+  textShadow: '#000 1px 0 3px',
 });
 
 export const H3SubTitle = styled('h3')({
-  color: 'white',
+  color: '#f4f3ee',
   fontSize: '1.5em',
   marginLeft: 'auto',
   marginRight: 'auto',
-  fontWeight: '700',
+  fontWeight: '500',
   '@media (min-width: 320px)': {
     width: '90%',
     fontSize: '24px',

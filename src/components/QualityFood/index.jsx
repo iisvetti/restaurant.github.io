@@ -16,8 +16,8 @@ const QualityFood = () => {
     <QualitySection>
       <QualityWrapper>
         <StyledHeading>
-          <h2>Найпопулярніші страви</h2>
-          <p>Найпопулярніші страви наших клієнтів</p>
+          <h2>The most popular dishes</h2>
+          <p>We offer:</p>
         </StyledHeading>
         <Cards>
           {items.map(item => {

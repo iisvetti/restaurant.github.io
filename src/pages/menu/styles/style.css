@@ -1,8 +1,8 @@
 .heroMenu {
   background-image: url(../../../images/menuherobg.jpg);
-  filter: brightness(75%);
+  filter: brightness(80%);
   width: 100%;
-  height: 400px;
+  height: 635px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -101,9 +101,7 @@ p {
 }
 
 /*
-===============
 Menu
-===============
 */
 
 .menu {
@@ -141,7 +139,7 @@ Menu
   margin: 0 0.5rem;
   letter-spacing: 1px;
   padding: 0.375rem 0.75rem;
-  color: #ec724d;
+  color: #463f3a;
   cursor: pointer;
   transition: var(--transition);
   border-radius: var(--radius);
@@ -149,7 +147,7 @@ Menu
 }
 
 .filter-btn:hover {
-  background: #e96a43;
+  background: #8a817c;
   color: var(--clr-white);
 }
 
@@ -163,7 +161,7 @@ Menu
   object-fit: cover;
   height: 200px;
   width: 100%;
-  border: 0.25rem solid #f87d58;
+  border: 0.25rem solid #d8d6d0;
   border-radius: var(--radius);
   display: block;
 }
@@ -171,7 +169,7 @@ Menu
 .item-info header {
   display: flex;
   justify-content: space-between;
-  border-bottom: 0.5px dotted #db532a;
+  border-bottom: 0.5px dotted #463f3a;
 }
 
 .item-info h4 {
@@ -179,7 +177,7 @@ Menu
 }
 
 .price {
-  color: #e96a43;
+  color: #68605b;
 }
 
 .item-text {
@@ -189,7 +187,7 @@ Menu
 }
 
 .active {
-  background: #e96a43;
+  background: #fa4002;
   color: var(--clr-white);
 }
 
@@ -274,7 +272,7 @@ Menu
     display: block;
     padding: 12px 16px !important;
     font-size: 14px;
-    background-color: #007bff;
+    background-color: #8a817c;
     color: #fff;
     border: none;
     border-radius: 4px;
@@ -290,7 +288,7 @@ Menu
   right: 0;
   padding: 8px 16px;
   font-size: 14px;
-  background-color: #007bff;
+  background-color: #8a817c;
   color: #fff;
   border: none;
   border-radius: 4px;
@@ -298,9 +296,8 @@ Menu
 }
 
 .order-btn:hover {
-  background-color: #0056b3;
+  background-color: #463f3a;
 }
-
 
 /* МОДАЛЬНЕ ВІКНО */
 .fixed-button {
@@ -309,11 +306,15 @@ Menu
   right: 20px;
   padding: 26px 16px;
   font-size: 14px;
-  background-color: #dabb3f;
+  background-color: #463f3a;
   color: #fff;
   border: none;
   border-radius: 4px;
   cursor: pointer;
+}
+
+.fixed-button:hover {
+  background-color: #8a817c;
 }
 
 .modal {
@@ -345,7 +346,7 @@ Menu
 }
 
 .selected {
-  background-color: green;
+  background-color: #68605b;
 }
 
 .confirm-btn {
@@ -353,7 +354,7 @@ Menu
   right: 0;
   padding: 8px 16px;
   font-size: 14px;
-  background-color: green;
+  background-color: #68605b;
   color: #fff;
   border: none;
   border-radius: 4px;
@@ -362,11 +363,11 @@ Menu
 }
 
 .order-btn:hover {
-  background-color: #0056b3;
+  background-color: #463f3a;
 }
 
 .reject-btn {
-  background-color: red;
+  background-color: #463f3a;
   bottom: 0;
   right: 0;
   padding: 8px 16px;
@@ -378,10 +379,10 @@ Menu
 }
 
 .rejected .order-btn {
-  background-color: green;
+  background-color: #68605b;
   color: white;
 }
 
 .rejected .order-btn:hover {
-  background-color: darkgreen;
+  background-color: #463f3a;
 }

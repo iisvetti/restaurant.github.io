@@ -15,8 +15,8 @@ function Contact() {
       <ContactHero>
         <InfoHero>
           <ContentHero>
-            <StyledH1>Зв'яжіться з нами</StyledH1>
-            <p>напишіть нам повідомлення і ми з радістю дамо вам відповіді</p>
+            <StyledH1>Contact us</StyledH1>
+            <p>We are waiting for tour questions!</p>
           </ContentHero>
         </InfoHero>
       </ContactHero>

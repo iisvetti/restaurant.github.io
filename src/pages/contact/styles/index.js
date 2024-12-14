@@ -1,8 +1,9 @@
 import { styled } from '@mui/material';
 
 export const ContactHero = styled('section')({
-  height: '45vh',
+  height: '100vh',
   backgroundImage: 'url(./images/bgAbout.jpg)',
+  filter: 'brightness(80%)',
   backgroundPosition: 'center center',
   backgroundRepeat: 'no-repeat',
   backgroundSize: 'cover',
@@ -12,12 +13,12 @@ export const ContactHero = styled('section')({
     alignItems: 'center',
   },
   '@media (min-width: 1020px)': {
-    display: 'block',
+    display: 'flex',
   },
 });
 
 export const InfoHero = styled('div')({
-  textAlign: 'left',
+  textAlign: 'center',
   width: '80%',
   height: '100%',
   display: 'flex',
@@ -34,16 +35,18 @@ export const InfoHero = styled('div')({
 
 export const WrapperHero = styled('div')({
   color: 'white',
-  textAlign: 'left',
+  textAlign: 'center',
 });
 
 export const ContentHero = styled('div')({
-  color: 'white',
+  color: '#f4f3ee',
   display: 'block',
 });
 
 export const StyledH1 = styled('h1')({
-  color: '#e96a43',
+  color: '#f4f3ee',
+  textAlign: 'center',
+  fontWeight: '600',
   '@media (min-width: 320px)': {
     fontSize: '2em',
   },

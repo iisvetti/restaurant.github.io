@@ -10,7 +10,7 @@ const Accordion = () => {
   return (
     <AccordionSection>
       <div className="container">
-        <h3>Питання що часто задаються</h3>
+        <h3>Frequently asked questions</h3>
         <InfoSection>
           {questions.map(question => {
             return (

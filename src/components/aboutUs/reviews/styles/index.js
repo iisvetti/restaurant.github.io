@@ -20,14 +20,14 @@ export const UnderlineH1 = styled('div')({
   marginLeft: 'auto',
   marginRight: 'auto',
   width: '13%',
-  borderBottom: '4px solid #e96a43',
+  borderBottom: '4px solid #bcb8b1',
 });
 
 export const H1Reviews = styled('h1')({
   fontWeight: '900',
   fontSize: '32px',
   letterSpacing: '3px',
-  color: '#e96a43',
+  color: '#a39d97',
   textAlign: 'center',
   '@media (min-width: 320px)': {
     fontSize: '21px',

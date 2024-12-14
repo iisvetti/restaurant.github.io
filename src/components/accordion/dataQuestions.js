@@ -1,28 +1,28 @@
 const questions = [
   {
     id: 1,
-    title: 'Які у вас години роботи?',
-    info: 'Наш ресторан працює з понеділка по суботу з 11:00 до 22:00 та в неділю з 12:00 до 21:00. Ми запрошуємо вас завітати до нас у ці години.',
+    title: 'What is the work shedule?',
+    info: 'Our restaurant is open Monday through Saturday from 11:00 AM to 10:00 PM and Sunday from 12:00 PM to 9:00 PM. We invite you to visit us during these hours.',
   },
   {
     id: 2,
-    title: 'Ви приймаєте замовлення?',
-    info: 'Так, ми приймаємо замовлення як по телефону, так і через наш сайт. Будь ласка, звяжіться з нами заздалегідь, щоб зробити бронювання.',
+    title: 'Do you take orders?',
+    info: 'Yes, we accept orders both by phone and through our website. Please contact us in advance to make a reservation.',
   },
   {
     id: 3,
-    title: 'Які форми оплати ви приймаєте?',
-    info: 'Ми приймаємо платежі готівкою, кредитними та дебетовими картками. Ми не приймаємо оплату чеками.',
+    title: 'Do you organize parties or corporate events?',
+    info: 'Yes, we organize buffets and corporate events. We provide special menus and table settings according to the needs of our clients.',
   },
   {
     id: 4,
-    title: 'Ви організовуєте вечірки чи корпоративні заходи?',
-    info: 'Так, ми організовуємо фуршети та корпоративні заходи. Ми надаємо спеціальне меню та сервіровку столів відповідно до потреб наших клієнтів.',
+    title: 'Do you have parking for visitors?',
+    info: 'Yes, we have a private parking for our visitors. We also offer parking spaces near our restaurant.',
   },
   {
     id: 5,
-    title: 'Чи є у вас місця для паркування для клієнтів?',
-    info: 'Так, у нас є приватна автостоянка для наших клієнтів. Ми також пропонуємо паркувальні місця біля нашого ресторану.',
+    title: 'Can I book a table?',
+    info: 'Yes, we have more than twenty places for your comfort, so you can reserve a place.',
   },
 ];
 

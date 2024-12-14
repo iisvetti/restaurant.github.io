@@ -12,7 +12,7 @@ import Categories from './categories';
 import CardMenu from './cardMenu';
 import items from './dataMenu';
 
-const allCategories = ['Все', ...new Set(items.map(item => item.category))];
+const allCategories = ['All', ...new Set(items.map(item => item.category))];
 
 function Menu() {
   const [menuItems, setMenuItems] = useState(items);
@@ -34,7 +34,7 @@ function Menu() {
   }, [orderItems]);
 
   const filterItems = category => {
-    if (category === 'Все') {
+    if (category === 'All') {
       setMenuItems(items);
       return;
     }
@@ -60,7 +60,7 @@ function Menu() {
   const handleAddToOrder = (title, price) => {
     const newItem = { title, price };
     setOrderItems(prevItems => [...prevItems, newItem]);
-    console.log('Замовлено:', title);
+    console.log('Ordered:', title);
   };
 
   const handleConfirmOrder = () => {
@@ -71,7 +71,7 @@ function Menu() {
     closeModal();
     setOrderItems([]);
     localStorage.removeItem('orderItems');
-    setShowModal(false); // Add this line to close the modal
+    setShowModal(false); 
   };
 
   const orderTotal = orderItems
@@ -83,8 +83,8 @@ function Menu() {
       <HeroMenu>
         <div className="heroMenu"></div>
         <StyledWrapper>
-          Apetitto<StyledSpan> Ресторан</StyledSpan>
-          <TitleMenu>Меню</TitleMenu>
+          TeaHouse <StyledSpan> Restaurant</StyledSpan>
+          <TitleMenu>Menu</TitleMenu>
         </StyledWrapper>
       </HeroMenu>
 
@@ -108,25 +108,25 @@ function Menu() {
             <span className="close" onClick={closeModal}>
               &times;
             </span>
-            <h2>{isOrderPlaced ? 'Дякуємо!' : 'Обрані страви'}</h2>
+            <h2>{isOrderPlaced ? 'Thank you for order!' : 'You ordered:'}</h2>
             {isOrderPlaced ? (
-              <p>Смачного та приходьте ще :)</p>
+              <p>Enjoy your meal!</p>
             ) : (
               <>
                 <ul>
                   {orderItems.map((item, index) => (
                     <li key={index}>
-                      {item.title} - {item.price}грн
+                      {item.title} - {item.price}hrn
                     </li>
                   ))}
                 </ul>
-                <p>Загальна сума замовлення: {orderTotal}грн</p>
+                <p>Total price: {orderTotal}hrn</p>
                 <div className="modal-buttons">
                   <button className="confirm-btn" onClick={handleConfirmOrder}>
-                    Замовити
+                    To order
                   </button>
                   <button className="reject-btn" onClick={handleRejectOrder}>
-                    Відхилити
+                    Cancel
                   </button>
                 </div>
               </>
@@ -136,7 +136,7 @@ function Menu() {
       )}
 
       <button className="fixed-button" onClick={handleOrderClick}>
-        Замовлення
+        Order
       </button>
     </MenuSection>
   );

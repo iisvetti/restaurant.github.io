@@ -5,12 +5,12 @@ import { Link } from 'react-router-dom';
 const LinkCantact = () => {
   return (
     <LinkSection>
-      <h2>У вас є питання?</h2>
+      <h2>Do you have any questions?</h2>
       <p>
-        напишіть нам повідомлення в контакті, ми з радістю дамо вам відповідь
+      Write us a message, we will be happy to contact with you
       </p>
       <Link to="/kontakt">
-        <ContactButton>Зв'яжіться з нами</ContactButton>
+        <ContactButton>Conect with us</ContactButton>
       </Link>
     </LinkSection>
   );

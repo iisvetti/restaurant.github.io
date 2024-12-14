@@ -26,12 +26,12 @@ const Footer = () => {
       </FooterSocials>
       <StyledRight>
         <Styledinfo>
-          <StyledSpan>Ресторан Apetitto</StyledSpan>
-          <StyledSpan>Київ, Богдана Хмельницького 54</StyledSpan>
-          <StyledSpan>+380 63 073 2517</StyledSpan>
+          <StyledSpan>Tea House Restaurant</StyledSpan>
+          <StyledSpan>Kyiv<br/> Bohdana Khmelnytskoho 54</StyledSpan>
+          <StyledSpan>+380 77 777 7777</StyledSpan>
         </Styledinfo>
         <StyledP>
-          Розробив
+          
           <ColorLogo>
             <a
               href="https://www.linkedin.com/in/dmytrii-beresten/"
@@ -39,7 +39,7 @@ const Footer = () => {
               rel="noopener noreferrer"
             >
               {' '}
-              Dmytrii Beresten
+              
             </a>
           </ColorLogo>
         </StyledP>

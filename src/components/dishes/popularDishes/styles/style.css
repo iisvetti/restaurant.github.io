@@ -30,15 +30,15 @@
 }
 
 .firstSlide {
-  background-image: url('../../../../images/specialMenu1.jpg');
+  background-image: url('../../../../images/specialMenu1.png');
 }
 
 .SecoundSlide {
-  background-image: url('../../../../images/specialMenu2.jpg');
+  background-image: url('../../../../images/specialMenu2.png');
 }
 
 .thirdSlide {
-  background-image: url('../../../../images/specialMenu3.jpg');
+  background-image: url('../../../../images/specialMenu3.png');
 }
 
 .SlideWrapper {
@@ -46,19 +46,15 @@
 }
 
 .fourthSlide {
-  background-image: url('../../../../images/specialMenu4.jpg');
+  background-image: url('../../../../images/specialMenu4.png');
 }
 
 .fifthSlide {
-  background-image: url('../../../../images/specialMenu5.jpg');
+  background-image: url('../../../../images/specialMenu5.png');
 }
 
 .sixthSlide {
-  background-image: url('../../../../images/specialMenu6.jpg');
-}
-
-.seventhSlide {
-  background-image: url('../../../../images/specialMenu7.jpg');
+  background-image: url('../../../../images/specialMenu6.png');
 }
 
 @media (min-width: 320px) {

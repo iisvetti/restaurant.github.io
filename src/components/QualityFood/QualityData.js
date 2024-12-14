@@ -1,21 +1,21 @@
 const QualityFood = [
   {
     id: 1,
-    image: './images/fastFood.svg',
-    name: 'Фаст-фуд',
-    desc: 'Наш ресторан пропонує високоякісні страви, які є свіжими, смачними та приготованими з найкращих інгредієнтів, що гарантує, що наші клієнти завжди залишаються задоволеними.',
+    image: './images/healthy-space.png',
+    name: 'Our healthy space',
+    desc: 'Our restaurant offers high-quality dishes that are fresh, delicious and made with the finest ingredients, ensuring that our customers are always satisfied.',
   },
   {
     id: 2,
-    image: './images/healthyFood.svg',
-    name: 'Здорове харчування',
-    desc: 'Здорова їжа надзвичайно важлива для нас, саме тому ми пропонуємо нашим клієнтам широкий вибір страв з найсвіжіших та найкорисніших інгредієнтів, які є смачними та ситними.',
+    image: './images/our-space.png',
+    name: 'Clean zone',
+    desc: 'In our restaurant, we strive for the highest quality and hygiene of food to ensure our customers.',
   },
   {
     id: 3,
-    image: './images/hygienaFood.svg',
-    name: 'Гігієна харчування',
-    desc: 'У нашому ресторані ми прагнемо до найвищої якості та гігієни продуктів харчування, щоб гарантувати нашим клієнтам безпеку та здоровья під час їжі.',
+    image: './images/',
+    name: 'Healthy food',
+    desc: 'Healthy food is extremely important to us, which is why we offer our customers a wide selection of dishes made from the freshest and healthiest ingredients that are delicious and filling.',
   },
 ];
 

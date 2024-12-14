@@ -11,19 +11,19 @@ const TeamDesc = () => {
     <DescTeamSection>
       <DescTeamwrapper>
         <div>
-          <StyledH2>Наші фахівці</StyledH2>
+          <StyledH2>Our team</StyledH2>
         </div>
         <p>
-          Наша команда - це група пристрасних гастрономів, які працюють у
-          кулінарії та індустрії гостинності. Кожен з нас володіє знаннями та
-          досвід, що дозволяє нам створювати унікальні смакові відчуття для
-          наших гостей. смакові враження для наших гостей. Ми зосереджуємося на
-          якості та свіжості інгредієнтів, щоб наші страви завжди були
-          ароматними та насиченими смаком. Наша робота заснована на пристрасті
-          та задоволенні наших клієнтів, тому ми завжди намагаємося виправдати
-          їхні очікування. ми завжди прагнемо відповідати їхнім очікуванням.
-          Наша команда створює дружню атмосферу в нашому ресторані, яка змушує
-          наших гостей відчувати себе особливо бажаними та цінними.
+          Our team is a group of passionate gastronomes working in the culinary
+          and hospitality industries. Each of us has the knowledge and
+          experience that allows us to create unique taste sensations for our
+          guests. taste sensations for our guests. We focus on the quality and
+          freshness of ingredients so that our dishes are always fragrant and
+          full of flavor. Our work is based on passion and satisfaction of our
+          customers, so we always try to meet their expectations. we always
+          strive to meet their expectations. Our team creates a friendly
+          atmosphere in our restaurant that makes our guests feel especially
+          welcome and valued.
         </p>
       </DescTeamwrapper>
       <ImageDesc />

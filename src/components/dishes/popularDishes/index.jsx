@@ -22,7 +22,7 @@ const PopularDishes = () => {
     <DishesWrapper className="menuBg">
       <HeaderDishes>
         <TitleDishes>
-          Популярні <MainColor> страви</MainColor>
+          Popular in<MainColor> menu</MainColor>
         </TitleDishes>
         <UnderLine></UnderLine>
       </HeaderDishes>
@@ -46,39 +46,35 @@ const PopularDishes = () => {
         >
           <SwiperSlide className="SlideWrapper">
             <div className="firstSlide slides">
-              <SpanSLideTitle>Італійська піца</SpanSLideTitle>
+              <SpanSLideTitle>Botanical infusion Tea</SpanSLideTitle>
             </div>
           </SwiperSlide>
           <SwiperSlide className="SlideWrapper">
             <div className="SecoundSlide slides">
-              <SpanSLideTitle>Бургер з картоплею фрі</SpanSLideTitle>
+              <SpanSLideTitle>Sultan's Dream Tea</SpanSLideTitle>
             </div>
           </SwiperSlide>
           <SwiperSlide className="SlideWrapper">
             <div className="thirdSlide slides">
-              <SpanSLideTitle>Суші</SpanSLideTitle>
+              <SpanSLideTitle>Japanese Sakura Tea</SpanSLideTitle>
             </div>
           </SwiperSlide>
           <SwiperSlide className="SlideWrapper">
             <div className="fourthSlide slides">
-              <SpanSLideTitle>Стейк</SpanSLideTitle>
+              <SpanSLideTitle>Fig and Strawberry Tea</SpanSLideTitle>
             </div>
           </SwiperSlide>
           <SwiperSlide className="SlideWrapper">
             <div className="fifthSlide slides">
-              <SpanSLideTitle>Пряні креветки</SpanSLideTitle>
+              <SpanSLideTitle>Lemon Ninja Tea</SpanSLideTitle>
             </div>
           </SwiperSlide>
           <SwiperSlide className="SlideWrapper">
             <div className="sixthSlide slides">
-              <SpanSLideTitle>Салат "Цезар"</SpanSLideTitle>
+              <SpanSLideTitle>Sweet Dreams Tea"</SpanSLideTitle>
             </div>
           </SwiperSlide>
-          <SwiperSlide className="SlideWrapper">
-            <div className="seventhSlide slides">
-              <SpanSLideTitle>Паста</SpanSLideTitle>
-            </div>
-          </SwiperSlide>
+         
         </Swiper>
       </div>
     </DishesWrapper>

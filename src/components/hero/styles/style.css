@@ -1,7 +1,7 @@
 .styledBg {
   background: url('/public/images/hero.jpg');
   width: 100%;
-  min-height: 90vh;
+  min-height: 100vh;
   position: absolute;
   filter: brightness(50%);
   z-index: -1;
